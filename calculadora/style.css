@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color:  #303134;
+}
+
+button{
+    padding: 14px;
+    font-size: 18px;
+    border-radius: 10px;
+    border:none;
+    cursor: pointer;
+}
+
+.container{
+    display: grid;
+    max-width: 360px;
+    margin: 100px auto;
+    gap: 10px;
+    border: 1px solid #000000;
+    background-color: #b8b8b8;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.cima{
+    display: grid;
+}
+
+.meio{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.baixo{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 10px;
+}
+
+.esquerda{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.operacao{
+    background-color: hsl(0, 0%, 55%);
+}
+
+.numero{
+    background-color: rgb(255, 255, 255);
+}
+
+#visor{
+    width: 100%;
+    box-sizing: border-box;
+    text-align: right;
+    padding: 10px;
+    font-size: 30px;
+    color: black;
+    background: white;
+    border-radius: 10px;
+}
+
+#ponto{
+    background-color: rgb(255, 255, 255);
+}
+
+#igual{
+    background-color: rgb(75, 158, 190); 
+}
+
+#limpar{
+    background-color: rgb(255, 255, 255);
+}
